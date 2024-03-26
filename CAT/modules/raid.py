@@ -37,7 +37,7 @@ async def raid(e):
             if uid in CAT_LOVER:
                 await e.reply("abey, yeh toh tera wandering papa hai hehe.")
             elif uid == OWNER_ID:
-                await e.reply("abey, tera baap hai wo ☔.")
+                await e.reply("abey, tera baap hai wo.")
             elif uid in SUDO_USERS:
                 await e.reply("are, yeh toh phle se sudo lekr baitha hai hehe.")
             else:
