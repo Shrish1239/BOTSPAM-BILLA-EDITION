@@ -8,11 +8,11 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/BOT_DEVELOPING"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BOT_DEVELOPING")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/PremiumEM0Gi"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/bkchr13")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Userbot33335/RECREATION-/tree/main")
+        Button.url("• ʀᴇᴘᴏ •", "CHLA JA FATE HUE CONDOM KE PAIDAISH ☔")
     ]
 ]
 
@@ -34,13 +34,13 @@ async def start(event):
         bot_name = AltBot.first_name
         bot_id = AltBot.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
-        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [𝗔𝗻𝘂𝗿𝗮𝗴 & 𝗕𝗶𝗹𝗹𝗮](https://t.me/BHAGAD_BILLA)**\n\n"
+        TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [WANDERING SOUL](@homosapienhu)**\n\n"
         TEXT += f"» **xʙᴏᴛꜱ ᴠᴇʀsɪᴏɴ :** `M3.3`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
                     event.chat_id,
-                    "https://graph.org/file/c5e80e526321c9036fc6f.jpg",
+                    "https://graph.org/file/e05b411f49beafde2baf8.jpg",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
