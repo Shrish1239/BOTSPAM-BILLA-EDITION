@@ -35,11 +35,11 @@ async def raid(e):
 
         try:
             if uid in CAT_LOVER:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ.")
+                await e.reply("abey, yeh toh tera wandering papa hai hehe.")
             elif uid == OWNER_ID:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
+                await e.reply("abey, tera baap hai wo ☔.")
             elif uid in SUDO_USERS:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ.")
+                await e.reply("are, yeh toh phle se sudo lekr baitha hai hehe.")
             else:
                 first_name = entity.first_name
                 counter = int(xraid[1])
@@ -102,7 +102,7 @@ async def rraid(e):
             if user_id in CAT_LOVER:
                 await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ.")
             elif user_id == OWNER_ID:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
+                await e.reply("ɴᴏ, this guy is your father xd.")
             elif user_id in SUDO_USERS:
                 await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ.")
             else:
@@ -110,7 +110,7 @@ async def rraid(e):
                 check = f"{user_id}_{e.chat_id}"
                 if check not in REPLY_RAID:
                     REPLY_RAID.append(check)
-                await e.reply("» BILLA ENKI MA CHODEGA AB !! ✅")
+                await e.reply("» WANDERING ENKI MA CHODEGA AB !! ✅")
         except NameError:
             await e.reply(f"» {hl}rraid <ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴜꜱᴇʀ>")
 
@@ -246,9 +246,9 @@ async def craid(e):
 
         try:
             if uid in CAT_LOVER:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀʟᴛʀᴏɴ'ꜱ ᴏᴡɴᴇʀ.")
+                await e.reply("abey, yeh toh tera wandering papa hai hehe.")
             elif uid == OWNER_ID:
-                await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴏᴡɴᴇʀ ᴏꜰ ᴛʜᴇꜱᴇ ʙᴏᴛꜱ.")
+                await e.reply("abey, yeh toh tera wandering papa hai hehe.")
             elif uid in SUDO_USERS:
                 await e.reply("ɴᴏ, ᴛʜɪꜱ ɢᴜʏ ɪꜱ ᴀ ꜱᴜᴅᴏ ᴜꜱᴇʀ.")
             else:
