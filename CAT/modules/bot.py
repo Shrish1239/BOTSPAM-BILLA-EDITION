@@ -24,7 +24,7 @@ async def ping(e):
         altron = await e.reply(f"⚡")
         end = datetime.now()
         mp = (end - start).microseconds / 10000
-        await altron.edit(f"ʀᴇᴀᴅʏ ᴛᴏ ꜰᴜᴄᴋ ʏᴏᴜ ᴜᴘ\n» `{mp} ᴍꜱ`")
+        await altron.edit(f"wandering bots is ʀᴇᴀᴅʏ ᴛᴏ ꜰᴜᴄᴋ ʏᴏᴜ \n» `{mp} ᴍꜱ`")
 
 
 @X1.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
@@ -39,7 +39,7 @@ async def ping(e):
 @X10.on(events.NewMessage(incoming=True, pattern=r"\%sreboot(?: |$)(.*)" % hl))
 async def restart(e):
     if e.sender_id in SUDO_USERS:
-        await e.reply(f"ʀᴇꜱᴛᴀʀᴛɪɴɢ...")
+        await e.reply(f" wait wandering bot restart horha...")
         try:
             await X1.disconnect()
         except Exception:
@@ -99,7 +99,7 @@ async def addsudo(event):
         Heroku = heroku3.from_key(HEROKU_API_KEY)
         sudousers = getenv("SUDO_USERS", default=None)
 
-        ok = await event.reply(f"» ᴀᴅᴅɪɴɢ ʙᴇɢɢᴇʀ ᴀꜱ ʙɪʟʟᴀ'ꜱ ꜱᴜᴅᴏ ʟɪꜱᴛ....")
+        ok = await event.reply(f"» ᴀᴅᴅɪɴɢ ʙᴇɢɢᴇʀ ᴀꜱ wandering'ꜱ ꜱᴜᴅᴏ ʟɪꜱᴛ....")
         target = ""
         if HEROKU_APP_NAME is not None:
             app = Heroku.app(HEROKU_APP_NAME)
@@ -127,4 +127,4 @@ async def addsudo(event):
             heroku_var["SUDO_USERS"] = newsudo    
     
     elif event.sender_id in SUDO_USERS:
-        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
+        await event.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ wandering soul ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
